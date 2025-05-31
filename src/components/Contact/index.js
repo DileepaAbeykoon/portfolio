@@ -125,7 +125,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_vqydbsk', 'template_32nkjns', form.current, 'H-Sg0LOpHcyYI6Vx4')
+      .sendForm('service_9uxyqwm', 'template_32nkjns', form.current, 'H-Sg0LOpHcyYI6Vx4')
       .then(
         () => {
           setOpen(true);
@@ -139,42 +139,41 @@ const Contact = () => {
   };
 
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
 
         <ContactForm ref={form} onSubmit={handleSubmit}>
-  <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactTitle>Email Me 🚀</ContactTitle>
 
-  <ContactInput
-    placeholder="Your Name"
-    name="from_name"
-    required
-  />
+          <ContactInput
+            placeholder="Your Name"
+            name="from_name"
+            required
+          />
 
-  <ContactInput
-    placeholder="Your Email"
-    name="from_email"
-    type="email"
-    required
-  />
+          <ContactInput
+            placeholder="Your Email"
+            name="from_email"
+            type="email"
+            required
+          />
 
-  <ContactInput
-    placeholder="Contact Number"
-    name="Contact_number"
-  />
+          <ContactInput
+            placeholder="Contact Number"
+            name="Contact_number"
+          />
 
-  <ContactInputMessage
-    placeholder="Message"
-    rows="4"
-    name="message"
-    required
-  />
+          <ContactInputMessage
+            placeholder="Message"
+            rows="4"
+            name="message"
+            required
+          />
 
-  <ContactButton type="submit" value="Send" />
-</ContactForm>
-
+          <ContactButton type="submit" value="Send" />
+        </ContactForm>
 
         {/* Success Snackbar */}
         <Snackbar open={open} autoHideDuration={6000} onClose={() => setOpen(false)}>

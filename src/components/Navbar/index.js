@@ -13,7 +13,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a href="#about"style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>DileepaAbeykoon.live</Span> 
+            <DiCssdeck size="3rem" /> <Span>Dileepa Abeykoon</Span> 
           </a>
         </NavLogo>
         <MobileIcon>

@@ -5,7 +5,7 @@ export const Bio = {
   roles: ["Backend Developer"],
   description: `💻 Backend Developer with expertise in Java, Spring Boot, and Node.js. Passionate about building scalable systems, secure APIs, and AI-integrated real-time apps.`,
   github: "https://github.com/dileepaabeykoon",
-  resume: "https://drive.google.com/file/d/1gRpaoTwzRvpxhe_jNZXScCr8uuy1D88W/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1IkahiSkqVSYxQxrvxCalXO41ogT9zoER/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dileepaabeykoon",
   facebook: "https://www.facebook.com/share/19DMnAj5Ph/"
 };
@@ -132,7 +132,7 @@ export const experiences = [
     role: "Software Engineering Intern",
     company: "HCode Solutions (Pvt) Ltd – Colombo, Sri Lanka",
     date: "January 2025 - June 2025",
-    desc: "Software engineering student with DevOps experience at Flipr Platforms, specializing in automation. Balanced academic studies with freelance work and practical projects.",
+    desc: "Software engineering student with experience at Flipr Platforms, specializing in automation. Balanced academic studies with freelance work and practical projects.",
     skills: [
       "Docker",
       "Spring Boot",
@@ -147,11 +147,12 @@ export const experiences = [
     //doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
   {
-    id: 0,
+    id: 1,
     img: "https://tse3.mm.bing.net/th?id=OIP.46Yv9hs635XeDBfgmWVHDQHaHa&pid=Api&P=0&h=220",
     role: "Temporary Software Engineer – Election Coverage Project",
-    date: "Sep 2024 - April 2025",
-    desc: "News 1st (Capital Maharaja Group) – Colombo, Sri Lanka",
+    company: "News 1st (Capital Maharaja Group) – Colombo, Sri Lanka",
+    date: " ",
+    desc: "Worked on real-time election data visualization and backend APIs for live broadcasts.",
     skills: [
       "ReactJS",
       "Redux",
@@ -175,7 +176,7 @@ export const education = [
     school: "The Open University of Sri Lanka",
     date: "2023 - Present",
     desc: "Pursuing a Bachelor of Science in Computer Science to deepen my knowledge in software development and system architecture.",
-    degree: "BSc Natural Sciences (Specialization) in Computer Science",
+    degree: "BSc Natural Sciences (Specialization in Computer Science)",
   },
   {
     id: 1,

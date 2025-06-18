@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf538fe7.css",
+    "main.js": "/static/js/main.9f43a7c0.js",
+    "static/media/dileepa.jpg": "/static/media/dileepa.11ab2e66e3e397d7622f.jpg",
+    "index.html": "/index.html",
+    "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
+    "main.9f43a7c0.js.map": "/static/js/main.9f43a7c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.9f43a7c0.js"
+  ]
+}

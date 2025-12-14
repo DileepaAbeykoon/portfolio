@@ -38,6 +38,26 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="UI/UX" onClick={() => setToggle('UI/UX')}>UI/UX</ToggleButton>
           }
+          <Divider />
+          {toggle === 'BOTS' ?
+            <ToggleButton active value="BOTS" onClick={() => setToggle('BOTS')}>BOTS</ToggleButton>
+            :
+            <ToggleButton value="BOTS" onClick={() => setToggle('BOTS')}>BOTS</ToggleButton>
+          }
+          <Divider />
+          {toggle === 'n8n' ?
+            <ToggleButton active value="n8n" onClick={() => setToggle('n8n')}>n8n</ToggleButton>
+            :
+            <ToggleButton value="n8n" onClick={() => setToggle('n8n')}>n8n</ToggleButton>
+          }
+          <Divider />
+          {toggle === 'MOBILE APPS' ?
+            <ToggleButton active value="MOBILE APPS" onClick={() => setToggle('MOBILE APPS')}>MOBILE APPS</ToggleButton>
+            :
+            <ToggleButton value="MOBILE APPS" onClick={() => setToggle('MOBILE APPS')}>MOBILE APPS</ToggleButton>
+          }
+          <Divider />
+          
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects

@@ -88,7 +88,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Dileepa Abeykoon</Logo>
+        <Logo>Dileepaabeykoon.me</Logo>
         <Nav>
           <NavLink href="#about">Home</NavLink>
           <NavLink href="#skills">Skills</NavLink>

@@ -2,8 +2,8 @@
 
 export const Bio = {
   name: "Dileepa Abeykoon",
-  roles: ["Backend Developer"],
-  description: `💻 Backend Developer with expertise in Java, Spring Boot, and Node.js. Passionate about building scalable systems, secure APIs, and AI-integrated real-time apps.`,
+  roles: ["Full-Stack Developer"],
+  description: `💻 Full-Stack Developer with expertise in Java, Spring Boot, React, NestJS, Next.js, and Node.js. Passionate about building scalable systems, secure APIs, and AI-integrated real-time apps.`,
   github: "https://github.com/dileepaabeykoon",
   resume: "https://drive.google.com/file/d/1IkahiSkqVSYxQxrvxCalXO41ogT9zoER/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dileepaabeykoon",
@@ -119,6 +119,18 @@ export const skills = [
         image:
           "https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png",
       },
+      // n8n
+      {
+        name: "n8n",
+        image:
+          "https://repository-images.githubusercontent.com/193215554/df34b36d-279c-496c-91c2-959dd9c9f13d",
+      },
+      // React Native
+      {
+        name: "Flutter",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png",
+      },
     ],
   },
 ];
@@ -214,8 +226,8 @@ export const projects = [
     description:
       "Point of Sale (POS) System is a robust sales management application built to streamline retail transactions. It processes 500+ transactions daily, reducing operational inefficiencies by 20%. The system includes a user-friendly interface that improves transaction speed by 25%, along with JWT-based authentication to enhance security and reduce fraud by 30%.",
     image:
-      "https://uiuxsource.com/wp-content/uploads/2022/11/Food-Pos-UI-Dashboard-Design.jpg",
-    tags: ["Node.js", "Express", "MongoDB", "JWT", "React"],
+      "https://tse4.mm.bing.net/th/id/OIP.lGfoGsmJV_6OgpMxBZLWiAHaEK?pid=Api&P=0&h=220",
+    tags: ["Java", "Spring Boot", "MySQL", "JWT", "WebSocket", "REST APIs", "React", "Tailwind CSS"],
     category: "web app",
     github: "https://github.com/Dileepa24046/Point-of-Sale-POS-System",
     webapp: "",
@@ -311,5 +323,18 @@ export const projects = [
     github: "https://www.figma.com/file/H7aw91593rouFIM9haBcvQ/Untitled",
     webapp: "",
   },
+
+  {
+    id: 8,
+    title: "Whatsapp Automation Bot",
+    description:
+      "Introducing My New WhatsApp Reply Automation Bot! Online business owners face one of the biggest daily challenges — responding to customers quickly and consistently, especially during busy hours. To solve this, I developed a WhatsApp Reply Bot designed specially for online sellers.It instantly replies to your customers 24/7, even when you're offline. Key Features --> Keyword-based auto replies – Send instant responses with product details & photos - AI-powered smart replies – Trained to understand customer questions and respond naturally - 24/7 automated customer support - Helps reduce workload & increase sales conversion - Automated reminder mzgs - Can Customized Ignore communities, and special numbers you not want to automatic reply",
+    image:
+      "https://cdn.prod.website-files.com/64cb8feadae4f2e5a069eb86/68e796e3ee7693abf7931939_WhatsApp%20Automation%20Benefits%2C%20Uses%2C%20Bot%20%26%20Examples-p-1600.webp",
+    tags: ["WhatsApp Automation", "Chatbot", "Auto Reply Bot", "Customer Support", "AI Messaging"],
+    category: "BOTS",
+    github: "https://github.com/DileepaAbeykoon/Whatsapp-Auto-reply-bot",
+    webapp: "",
+  }
 ];
 
